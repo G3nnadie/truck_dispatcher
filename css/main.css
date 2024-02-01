@@ -101,6 +101,7 @@ body {
   position: relative;
   background: #C6C6C6;
   border-radius: 10px;
+  transition: all .2s;
 }
 
 .swiper-lines .swiper-pagination .swiper-pagination-bullet:before {
