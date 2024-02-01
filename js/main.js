@@ -51,10 +51,12 @@ $(document).ready(function () {
   // }
   // accordion();
 
+  const timeSwiper = 4800;
+
   // Balance sl
   var swiper = new Swiper(".balance__sl", {
     autoplay: {
-      delay: 2800,
+      delay: timeSwiper,
     },
     spaceBetween: 10,
     slidesPerView: 'auto',
@@ -76,7 +78,7 @@ $(document).ready(function () {
   // Profession sl
   var swiper = new Swiper(".profession__sl", {
     autoplay: {
-      delay: 2800,
+      delay: timeSwiper,
     },
     spaceBetween: 0,
     slidesPerView: 1,
@@ -98,7 +100,7 @@ $(document).ready(function () {
   // Reviews sl
   var swiper = new Swiper(".reviews__sl", {
     autoplay: {
-      delay: 2800,
+      delay: timeSwiper,
     },
     spaceBetween: 8,
     slidesPerView: 'auto',

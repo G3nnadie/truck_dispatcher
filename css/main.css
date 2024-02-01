@@ -94,9 +94,10 @@ body {
 }
 
 .swiper-lines .swiper-pagination .swiper-pagination-bullet {
-  opacity: .5;
-  width: 41px;
+  opacity: 1;
+  width: 51px;
   height: 4px;
+  margin: 0 3px;
   position: relative;
   background: #C6C6C6;
   border-radius: 10px;
@@ -109,9 +110,13 @@ body {
   background: linear-gradient(to right, rgba(50, 115, 246, 1), rgba(249, 222, 188, 1));
 }
 
+.swiper-lines .swiper-pagination .swiper-pagination-bullet-active~.swiper-pagination-bullet {
+  opacity: 0.5;
+}
+
 .swiper-lines .swiper-pagination .swiper-pagination-bullet-active:before {
   opacity: 1;
-  animation: shadow 3s linear;
+  animation: shadow 5s linear;
 }
 
 @keyframes shadow {
@@ -193,8 +198,8 @@ body {
 }
 
 .balance__sl .swiper-pagination {
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* ---------- *Profession ------------ */
